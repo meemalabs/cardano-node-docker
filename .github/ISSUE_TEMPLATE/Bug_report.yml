@@ -1,0 +1,30 @@
+name: "\U0001F41B Bug Report"
+description: Report a general library issue.
+labels: [bug]
+body:
+- type: input
+  attributes:
+    label: Docker version
+    description: "Please provide the full version of your currently used Docker environment by running `docker -v`."
+    placeholder: "20.10.8, build 3967b7d"
+  validations:
+    required: true
+- type: checkboxes
+  id: latest-version
+  attributes:
+    label: Are you using the latest code from the main branch?
+    options:
+      - label: Yes, I am using the latest code
+        required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: "Please describe what is happening and what you expect to happen."
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps to reproduce
+    description: "Please provide accurate steps to reproduce the bug."
+  validations:
+    required: true
