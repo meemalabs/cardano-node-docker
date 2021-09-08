@@ -30,7 +30,8 @@ Please review [our security policy](https://github.com/meemalabs/cardano-node-do
 
 ## 🙏🏼 Credits
 
-- [abracadaniel](https://github.com/abracadaniel) - thanks for your efforts on `cardano-node-docker`!
+Many thanks to [abracadaniel](https://github.com/abracadaniel) for the amazing efforts on `cardano-node-docker`!
+
 - [Chris Breuer](https://github.com/Chris1904)
 - [Folks at Meema](https://github.com/meemalabs)
 - [All Contributors](../../contributors)
