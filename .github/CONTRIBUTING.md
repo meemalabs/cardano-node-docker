@@ -48,4 +48,20 @@ If the project maintainer has any additional requirements, you will find them li
 
 - **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please [squash them](https://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages) before submitting.
 
+## Commit
+
+This project uses [semantic commit messages][semantic-commit-style] to automate package releases.
+Simply refer to the link, and also see existing commits to get an idea of how to write your message.
+
+```bash
+# Add all changes to staging to be committed.
+$: git add .
+
+# Commit changes.
+$: git commit -m 'your commit message'
+
+# Push changes up to GitHub.
+$: git push
+```
+
 **Happy coding**!
