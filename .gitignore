@@ -2,3 +2,5 @@ config/
 /rsync.sh
 *.pyc
 __pycache__
+node_modules
+.serverless

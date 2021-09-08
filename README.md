@@ -1,5 +1,7 @@
 # Cardano Stake Pool
 
+This project aims to simplify the setup of a Cardano Stake Pool by adding additional helpers and a much simpler overall setup with fewer steps. This repo also requires you to have an AWS account because the secure network will be deployed there.
+
 ## 💡 Usage
 
 ## 🐙 Installation
@@ -16,19 +18,19 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Media Converter on GitHub](https://github.com/meemalabs/laravel-media-converter/discussions)
+[Stake Pool Discussion on GitHub](https://github.com/meemalabs/cardano-node-docker/discussions)
 
 For casual chit-chat with others using this package:
 
-[Join the Meema Discord Server](https://discord.meema.io)
+[Join the Stake Pool Discord Server](https://discord.meema.io)
 
 ## 🚨 Security
 
-Please review [our security policy](https://github.com/meemalabs/laravel-media-converter/security/policy) on how to report security vulnerabilities.
+Please review [our security policy](https://github.com/meemalabs/cardano-node-docker/security/policy) on how to report security vulnerabilities.
 
 ## 🙏🏼 Credits
 
-- [Abracadaniel](https://github.com/abracadaniel/cardano-node-docker)
+- [abracadaniel](https://github.com/abracadaniel) - thanks for your efforts on `cardano-node-docker`!
 - [Chris Breuer](https://github.com/Chris1904)
 - [Folks at Meema](https://github.com/meemalabs)
 - [All Contributors](../../contributors)
