@@ -28,6 +28,7 @@ Please review [our security policy](https://github.com/meemalabs/laravel-media-c
 
 ## 🙏🏼 Credits
 
+- [Abracadaniel](https://github.com/abracadaniel/cardano-node-docker)
 - [Chris Breuer](https://github.com/Chris1904)
 - [Folks at Meema](https://github.com/meemalabs)
 - [All Contributors](../../contributors)

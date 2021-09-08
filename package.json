@@ -1,0 +1,16 @@
+{
+  "name": "cardano-stake-pool",
+  "description": "This serverless repository will easily and quickly provision an optimized EC2 environment for your Cardano Stake Pool nodes.",
+  "author": {
+    "name": "Chris Breuer",
+    "url": "https://meema.io",
+    "email": "chris@meema.io"
+  },
+  "scripts": {
+    "create-aws-network:prod": "SLS_DEBUG=* serverless deploy --verbose --stage production",
+    "create-aws-network:dev": "SLS_DEBUG=* serverless deploy --verbose --stage development"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT"
+}
